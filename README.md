@@ -37,6 +37,11 @@
        <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />
 
 ## Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3  
+1. S3 Setup:  
+  - Navigate to the S3 dashboard and create a new bucket.  
+  - Upload multiple files to this bucket, ensuring that some files are older than 30 days (you may need to adjust your system's date temporarily for this or use old files).
+    <img width="1646" height="1272" alt="image" src="https://github.com/user-attachments/assets/57f7969b-3cc6-4651-ba63-bbf48dd36c09" />
+    <img width="834" height="424" alt="image" src="https://github.com/user-attachments/assets/b4390a2f-9f6b-4cb0-b577-80fcd2b97ff5" />  
 
 
 

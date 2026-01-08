@@ -26,7 +26,13 @@
     3. Stop the `Auto-Stop` instances and start the `Auto-Start` instances.  
     4. Print instance IDs that were affected for logging purposes.
        <img width="1648" height="1064" alt="image" src="https://github.com/user-attachments/assets/11b54d54-a247-4b62-8922-a658f482899d" />  
-       <img width="1592" height="942" alt="image" src="https://github.com/user-attachments/assets/0e5d3ad3-acf5-49bd-b491-2e9faf3f1d47" />  
+       <img width="1592" height="942" alt="image" src="https://github.com/user-attachments/assets/0e5d3ad3-acf5-49bd-b491-2e9faf3f1d47" />
+       <img width="2400" height="924" alt="image" src="https://github.com/user-attachments/assets/f8f08956-a22b-4187-9bf1-372d9e51e03d" />
+       <img width="2406" height="1212" alt="image" src="https://github.com/user-attachments/assets/dce254e6-44e7-4054-bb2e-4cfdc9191ace" />
+       <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />  
+
+
+
  
         
 

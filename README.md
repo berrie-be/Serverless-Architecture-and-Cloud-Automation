@@ -1,4 +1,4 @@
-## Assignment 1:  
+## Assignment 1: Automated Instance Management Using AWS Lambda and Boto3   
 1. EC2 Setup:  
   - Navigate to the EC2 dashboard and create two new t2.micro instances (or any other available free-tier type).  
   - Tag the first instance with a key `Action` and value `Auto-Stop`.  
@@ -34,7 +34,9 @@
 4. Testing:  
   - Manually invoke the Lambda function.  
   - Confirm that the instance tagged `Auto-Stop` stops and the one tagged `Auto-Start` starts.  
-       <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />   
+       <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />
+
+## Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3  
 
 
 

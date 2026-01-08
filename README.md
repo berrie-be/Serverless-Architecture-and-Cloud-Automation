@@ -1,3 +1,4 @@
+##Assignment 1:
 1. EC2 Setup:  
   - Navigate to the EC2 dashboard and create two new t2.micro instances (or any other available free-tier type).  
   - Tag the first instance with a key `Action` and value `Auto-Stop`.  

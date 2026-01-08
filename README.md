@@ -41,7 +41,21 @@
   - Navigate to the S3 dashboard and create a new bucket.  
   - Upload multiple files to this bucket, ensuring that some files are older than 30 days (you may need to adjust your system's date temporarily for this or use old files).
     <img width="1646" height="1272" alt="image" src="https://github.com/user-attachments/assets/57f7969b-3cc6-4651-ba63-bbf48dd36c09" />
-    <img width="834" height="424" alt="image" src="https://github.com/user-attachments/assets/b4390a2f-9f6b-4cb0-b577-80fcd2b97ff5" />  
+    <img width="834" height="424" alt="image" src="https://github.com/user-attachments/assets/b4390a2f-9f6b-4cb0-b577-80fcd2b97ff5" />
+    <img width="1656" height="412" alt="image" src="https://github.com/user-attachments/assets/234438a7-8f2e-4068-80bd-c2143309709f" />
+    <img width="1660" height="832" alt="image" src="https://github.com/user-attachments/assets/91d1f663-2f7c-4368-b630-d30ce13c301c" />
+    <img width="1646" height="780" alt="image" src="https://github.com/user-attachments/assets/a3c858ae-f806-4367-b94a-afc7db5f922b" />
+
+2. Lambda IAM Role:  
+  - In the IAM dashboard, create a new role for Lambda.  
+  - Attach the `AmazonS3FullAccess` policy to this role. (Note: For enhanced security in real-world scenarios, use more restrictive permissions.)
+    <img width="2932" height="504" alt="image" src="https://github.com/user-attachments/assets/11b4cf8f-c641-4b72-b314-de976a076db1" />
+    <img width="2924" height="1312" alt="image" src="https://github.com/user-attachments/assets/00826c38-b0b2-4932-a44f-4d7be730bbec" />  
+
+
+
+
+
 
 
 

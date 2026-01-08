@@ -29,7 +29,11 @@
        <img width="1592" height="942" alt="image" src="https://github.com/user-attachments/assets/0e5d3ad3-acf5-49bd-b491-2e9faf3f1d47" />
        <img width="2400" height="924" alt="image" src="https://github.com/user-attachments/assets/f8f08956-a22b-4187-9bf1-372d9e51e03d" />
        <img width="2406" height="1212" alt="image" src="https://github.com/user-attachments/assets/dce254e6-44e7-4054-bb2e-4cfdc9191ace" />
-       <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />  
+   
+4. Testing:  
+  - Manually invoke the Lambda function.  
+  - Confirm that the instance tagged `Auto-Stop` stops and the one tagged `Auto-Start` starts.  
+       <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />   
 
 
 

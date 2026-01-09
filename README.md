@@ -45,6 +45,8 @@
     <img width="1656" height="412" alt="image" src="https://github.com/user-attachments/assets/234438a7-8f2e-4068-80bd-c2143309709f" />
     <img width="1660" height="832" alt="image" src="https://github.com/user-attachments/assets/91d1f663-2f7c-4368-b630-d30ce13c301c" />
     <img width="1646" height="780" alt="image" src="https://github.com/user-attachments/assets/a3c858ae-f806-4367-b94a-afc7db5f922b" />
+    <img width="704" height="657" alt="image" src="https://github.com/user-attachments/assets/370dacae-e83c-40c8-802a-bc027d3255d0" />  
+
 
 2. Lambda IAM Role:  
   - In the IAM dashboard, create a new role for Lambda.  
@@ -52,7 +54,19 @@
     <img width="2932" height="504" alt="image" src="https://github.com/user-attachments/assets/11b4cf8f-c641-4b72-b314-de976a076db1" />
     <img width="2924" height="1312" alt="image" src="https://github.com/user-attachments/assets/00826c38-b0b2-4932-a44f-4d7be730bbec" />  
 
+3. Lambda Function:  
+  - Navigate to the Lambda dashboard and create a new function.  
+  - Choose Python 3.x as the runtime.  
+  - Assign the IAM role created in the previous step.
+    <img width="869" height="537" alt="image" src="https://github.com/user-attachments/assets/c7a84394-925c-4f5c-9914-9acd15929217" />
+    <img width="815" height="552" alt="image" src="https://github.com/user-attachments/assets/d9659eac-6e01-4db4-8cf5-1bec7ab3fb0b" />  
 
+  - Write the Boto3 Python script to:  
+    1. Initialize a boto3 S3 client.  
+    2. List objects in the specified bucket.  
+    3. Delete objects older than 30 days.  
+    4. Print the names of deleted objects for logging purposes.
+         
 
 
 

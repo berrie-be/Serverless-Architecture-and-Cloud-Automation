@@ -46,8 +46,8 @@
     <img width="1660" height="832" alt="image" src="https://github.com/user-attachments/assets/91d1f663-2f7c-4368-b630-d30ce13c301c" />
 
     Upload files and update the metadata of the file to before 30 days using AWS CLI  
-    <img width="704" height="657" alt="image" src="https://github.com/user-attachments/assets/370dacae-e83c-40c8-802a-bc027d3255d0" />  
-
+    <img width="704" height="657" alt="image" src="https://github.com/user-attachments/assets/370dacae-e83c-40c8-802a-bc027d3255d0" />
+    <img width="823" height="259" alt="image" src="https://github.com/user-attachments/assets/28f0af0a-166e-4edf-a8ee-c526dff5bfbe" />  
 
 2. Lambda IAM Role:  
   - In the IAM dashboard, create a new role for Lambda.  
@@ -62,15 +62,24 @@
     <img width="869" height="537" alt="image" src="https://github.com/user-attachments/assets/c7a84394-925c-4f5c-9914-9acd15929217" />  
     <img width="815" height="552" alt="image" src="https://github.com/user-attachments/assets/d9659eac-6e01-4db4-8cf5-1bec7ab3fb0b" />  
     <img width="1209" height="594" alt="image" src="https://github.com/user-attachments/assets/b835d979-f6c4-429c-8419-71417dc94494" />  
-    <img width="425" height="356" alt="image" src="https://github.com/user-attachments/assets/1f720130-1761-4d07-b890-67866a156919" />  
-
-
 
   - Write the Boto3 Python script to:  
     1. Initialize a boto3 S3 client.  
     2. List objects in the specified bucket.  
     3. Delete objects older than 30 days.  
-    4. Print the names of deleted objects for logging purposes.
+    4. Print the names of deleted objects for logging purposes.  
+       <img width="425" height="356" alt="image" src="https://github.com/user-attachments/assets/1f720130-1761-4d07-b890-67866a156919" />
+
+4. Manual Invocation:  
+  - After saving your function, manually trigger it.  
+  - Go to the S3 dashboard and confirm that only files newer than 30 days remain.
+    <img width="805" height="575" alt="image" src="https://github.com/user-attachments/assets/5bb4d2f7-152c-40ca-bfdf-fe927a4db26f" />
+    <img width="817" height="199" alt="image" src="https://github.com/user-attachments/assets/6c4e68ba-6c33-4ff7-a5b3-9a1ba8a3a469" />  
+
+
+    
+
+
          
 
 

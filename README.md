@@ -44,7 +44,8 @@
     <img width="834" height="424" alt="image" src="https://github.com/user-attachments/assets/b4390a2f-9f6b-4cb0-b577-80fcd2b97ff5" />
     <img width="1656" height="412" alt="image" src="https://github.com/user-attachments/assets/234438a7-8f2e-4068-80bd-c2143309709f" />
     <img width="1660" height="832" alt="image" src="https://github.com/user-attachments/assets/91d1f663-2f7c-4368-b630-d30ce13c301c" />
-    <img width="1646" height="780" alt="image" src="https://github.com/user-attachments/assets/a3c858ae-f806-4367-b94a-afc7db5f922b" />
+
+    Upload files and update the metadata of the file to before 30 days using AWS CLI  
     <img width="704" height="657" alt="image" src="https://github.com/user-attachments/assets/370dacae-e83c-40c8-802a-bc027d3255d0" />  
 
 

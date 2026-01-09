@@ -83,7 +83,8 @@
 ### Objective: To enhance your AWS security posture by setting up a Lambda function that detects any S3 bucket without server-side encryption.  
 
 1. S3 Setup:  
-  - Navigate to the S3 dashboard and create a few buckets. Ensure that a couple of them don't have server-side encryption enabled.  
+  - Navigate to the S3 dashboard and create a few buckets. Ensure that a couple of them don't have server-side encryption enabled.
+    As by default, encryption is enabled for S3 now, I have chosen two different enceyptions - one with KMS and two with Amazon S3 managed keys
     <img width="1634" height="1170" alt="image" src="https://github.com/user-attachments/assets/b13fb142-87bb-4793-b4c9-47cbf74988b6" />  
     <img width="1628" height="840" alt="image" src="https://github.com/user-attachments/assets/814255c7-6103-4d58-a35a-9318abcc58cb" />  
     <img width="1626" height="1242" alt="image" src="https://github.com/user-attachments/assets/37e15329-d2fd-40f5-9299-ed410d74b110" />  
@@ -96,10 +97,33 @@
 2. Lambda IAM Role:  
   - In the IAM dashboard, create a new role for Lambda.  
   - Attach the `AmazonS3ReadOnlyAccess` policy to this role.  
-    <img width="1464" height="579" alt="image" src="https://github.com/user-attachments/assets/5919b8f3-88b5-42f5-9ad9-9cd0dcfad89a" />  
-    <img width="1460" height="368" alt="image" src="https://github.com/user-attachments/assets/d9499ada-e0c0-4988-8ff4-660c5e157c5e" />
-    <img width="1469" height="654" alt="image" src="https://github.com/user-attachments/assets/7555f64d-f0fb-489c-8adc-7508b4f958f9" />
-    <img width="818" height="414" alt="image" src="https://github.com/user-attachments/assets/e1ed8c3b-6d58-4cfd-b0cd-faef4e5ea1dd" />
+    <img width="1464" height="579" alt="image" src="https://github.com/user-attachments/assets/5919b8f3-88b5-42f5-9ad9-9cd0dcfad89a" />    
+    <img width="1460" height="368" alt="image" src="https://github.com/user-attachments/assets/d9499ada-e0c0-4988-8ff4-660c5e157c5e" />  
+    <img width="1469" height="654" alt="image" src="https://github.com/user-attachments/assets/7555f64d-f0fb-489c-8adc-7508b4f958f9" />  
+    <img width="818" height="414" alt="image" src="https://github.com/user-attachments/assets/e1ed8c3b-6d58-4cfd-b0cd-faef4e5ea1dd" />  
+
+3. Lambda Function:  
+  - Navigate to the Lambda dashboard and create a new function.  
+  - Choose Python 3.x as the runtime.  
+  - Assign the IAM role created in the previous step.  
+    <img width="825" height="535" alt="image" src="https://github.com/user-attachments/assets/359bd306-a07f-4420-8784-b9bfb99feed4" />  
+    <img width="809" height="439" alt="image" src="https://github.com/user-attachments/assets/7074c5b1-4dd1-41af-9f53-4c90b8435a85" />  
+    <img width="805" height="404" alt="image" src="https://github.com/user-attachments/assets/a8630ded-7478-4a5d-a2b9-06606354f42c" />  
+      
+  - Write the Boto3 Python script to:  
+    1. Initialize a boto3 S3 client.  
+    2. List all S3 buckets.  
+    3. Detect buckets without server-side encryption.  
+    4. Print the names of unencrypted buckets for logging purposes.  
+       <img width="554" height="345" alt="image" src="https://github.com/user-attachments/assets/02c21c33-619b-4cc3-a2c8-daa21d4706f7" />
+
+4. Manual Invocation:
+  - After saving your function, manually trigger it.
+  - Review the Lambda logs to identify the buckets without server-side encryption.
+    <img width="802" height="550" alt="image" src="https://github.com/user-attachments/assets/77aa0c24-b2c8-4246-9784-b4cf202c80da" />
+    
+
+
 
 
 

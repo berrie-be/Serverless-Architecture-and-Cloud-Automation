@@ -122,10 +122,23 @@
   - Review the Lambda logs to identify the buckets without server-side encryption.
     <img width="802" height="550" alt="image" src="https://github.com/user-attachments/assets/77aa0c24-b2c8-4246-9784-b4cf202c80da" />
 
-## Assignment 4: Automatic EBS Snapshot and Cleanup Using AWS Lambda and Boto3
-### Objective: To automate the backup process for your EBS volumes and ensure that backups older than a specified retention period are cleaned up to save costs.
+## Assignment 4: Automatic EBS Snapshot and Cleanup Using AWS Lambda and Boto3  
+### Objective: To automate the backup process for your EBS volumes and ensure that backups older than a specified retention period are cleaned up to save costs.  
     
+1. EBS Setup:  
+  - Navigate to the EC2 dashboard and identify or create an EBS volume you wish to back up.
+  - Note down the volume ID.
+    <img width="816" height="574" alt="image" src="https://github.com/user-attachments/assets/84bfc98c-d197-44fe-ad9b-9125c1474d07" />
+    <img width="824" height="459" alt="image" src="https://github.com/user-attachments/assets/fcd550e2-311c-4e2c-a27b-b54e7f296eee" />
+    
+2. Lambda IAM Role:
+  - In the IAM dashboard, create a new role for Lambda.
+  - Attach policies that allow Lambda to create EBS snapshots and delete them (`AmazonEC2FullAccess` for simplicity, but be more restrictive in real-world scenarios).
+    <img width="824" height="410" alt="image" src="https://github.com/user-attachments/assets/d9a84074-7d39-4104-b746-688f61e7a86e" />
 
+
+
+    
 
 
 

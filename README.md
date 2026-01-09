@@ -59,8 +59,12 @@
   - Navigate to the Lambda dashboard and create a new function.  
   - Choose Python 3.x as the runtime.  
   - Assign the IAM role created in the previous step.
-    <img width="869" height="537" alt="image" src="https://github.com/user-attachments/assets/c7a84394-925c-4f5c-9914-9acd15929217" />
+    <img width="869" height="537" alt="image" src="https://github.com/user-attachments/assets/c7a84394-925c-4f5c-9914-9acd15929217" />  
     <img width="815" height="552" alt="image" src="https://github.com/user-attachments/assets/d9659eac-6e01-4db4-8cf5-1bec7ab3fb0b" />  
+    <img width="1209" height="594" alt="image" src="https://github.com/user-attachments/assets/b835d979-f6c4-429c-8419-71417dc94494" />  
+    <img width="425" height="356" alt="image" src="https://github.com/user-attachments/assets/1f720130-1761-4d07-b890-67866a156919" />  
+
+
 
   - Write the Boto3 Python script to:  
     1. Initialize a boto3 S3 client.  

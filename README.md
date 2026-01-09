@@ -96,6 +96,16 @@
 2. Lambda IAM Role:  
   - In the IAM dashboard, create a new role for Lambda.  
   - Attach the `AmazonS3ReadOnlyAccess` policy to this role.  
+    <img width="1464" height="579" alt="image" src="https://github.com/user-attachments/assets/5919b8f3-88b5-42f5-9ad9-9cd0dcfad89a" />  
+    <img width="1460" height="368" alt="image" src="https://github.com/user-attachments/assets/d9499ada-e0c0-4988-8ff4-660c5e157c5e" />
+    <img width="1469" height="654" alt="image" src="https://github.com/user-attachments/assets/7555f64d-f0fb-489c-8adc-7508b4f958f9" />
+    <img width="818" height="414" alt="image" src="https://github.com/user-attachments/assets/e1ed8c3b-6d58-4cfd-b0cd-faef4e5ea1dd" />
+
+
+
+
+
+
 
 
 

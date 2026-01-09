@@ -1,4 +1,5 @@
 ## Assignment 1: Automated Instance Management Using AWS Lambda and Boto3   
+### Objective: In this assignment, you will gain hands-on experience with AWS Lambda and Boto3, Amazon's SDK for Python. You will create a Lambda function that will automatically manage EC2 instances based on their tags.
 1. EC2 Setup:  
   - Navigate to the EC2 dashboard and create two new t2.micro instances (or any other available free-tier type).  
   - Tag the first instance with a key `Action` and value `Auto-Stop`.  
@@ -36,7 +37,9 @@
   - Confirm that the instance tagged `Auto-Stop` stops and the one tagged `Auto-Start` starts.  
        <img width="2366" height="1068" alt="image" src="https://github.com/user-attachments/assets/7f80d2b8-7076-46ac-a097-171d2a53e0bb" />
 
-## Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3  
+## Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3 
+### Objective: To gain experience with AWS Lambda and Boto3 by creating a Lambda function that will automatically clean up old files in an S3 bucket.
+
 1. S3 Setup:  
   - Navigate to the S3 dashboard and create a new bucket.  
   - Upload multiple files to this bucket, ensuring that some files are older than 30 days (you may need to adjust your system's date temporarily for this or use old files).
@@ -74,7 +77,34 @@
   - After saving your function, manually trigger it.  
   - Go to the S3 dashboard and confirm that only files newer than 30 days remain.
     <img width="805" height="575" alt="image" src="https://github.com/user-attachments/assets/5bb4d2f7-152c-40ca-bfdf-fe927a4db26f" />
-    <img width="817" height="199" alt="image" src="https://github.com/user-attachments/assets/6c4e68ba-6c33-4ff7-a5b3-9a1ba8a3a469" />  
+    <img width="817" height="199" alt="image" src="https://github.com/user-attachments/assets/6c4e68ba-6c33-4ff7-a5b3-9a1ba8a3a469" />
+
+## Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3  
+### Objective: To enhance your AWS security posture by setting up a Lambda function that detects any S3 bucket without server-side encryption.  
+
+1. S3 Setup:  
+  - Navigate to the S3 dashboard and create a few buckets. Ensure that a couple of them don't have server-side encryption enabled.  
+    <img width="1634" height="1170" alt="image" src="https://github.com/user-attachments/assets/b13fb142-87bb-4793-b4c9-47cbf74988b6" />  
+    <img width="1628" height="840" alt="image" src="https://github.com/user-attachments/assets/814255c7-6103-4d58-a35a-9318abcc58cb" />  
+    <img width="1626" height="1242" alt="image" src="https://github.com/user-attachments/assets/37e15329-d2fd-40f5-9299-ed410d74b110" />  
+    <img width="1628" height="1046" alt="image" src="https://github.com/user-attachments/assets/79a75da1-5703-4acb-8728-4807e8c582b6" />  
+    <img width="1636" height="1242" alt="image" src="https://github.com/user-attachments/assets/2b82e6fa-c6ad-4a3d-b7d3-53bc454fa71c" />  
+    <img width="1628" height="848" alt="image" src="https://github.com/user-attachments/assets/5be788ec-8cc9-43d3-a985-b7889eee5021" />  
+
+    <img width="1074" height="262" alt="image" src="https://github.com/user-attachments/assets/bd61316a-5473-443d-847f-b7fd8586dd90" />  
+
+2. Lambda IAM Role:  
+  - In the IAM dashboard, create a new role for Lambda.  
+  - Attach the `AmazonS3ReadOnlyAccess` policy to this role.  
+
+
+
+
+
+
+
+    
+
 
 
     

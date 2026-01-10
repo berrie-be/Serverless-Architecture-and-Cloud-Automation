@@ -168,6 +168,19 @@
     <img width="966" height="56" alt="image" src="https://github.com/user-attachments/assets/b9edb0ad-e166-47ec-84b8-0e209d8cd7ec" />
     <img width="1230" height="444" alt="image" src="https://github.com/user-attachments/assets/57653098-98e7-46e4-8b5a-45480026b395" />
     <img width="583" height="162" alt="image" src="https://github.com/user-attachments/assets/e7dca9a5-5047-4912-a4cb-4f6deb174057" />
+
+    Now we will add a Trigger to our lambda function which will run the lambda function every Sunday 12.30AM  
+    <img width="820" height="391" alt="image" src="https://github.com/user-attachments/assets/6f120655-e2bd-4ece-8318-6e686004726c" />
+    
+    <img width="310" height="128" alt="image" src="https://github.com/user-attachments/assets/f1c504a2-cd85-4dce-83d6-a7d26d41ba76" />
+
+5. Manual Invocation:
+  - After saving your function, either manually trigger it or wait for the scheduled event.
+    First line proves that the function got triggered at 11th Jan 12.30 AM IST
+    <img width="779" height="385" alt="image" src="https://github.com/user-attachments/assets/defa7a7a-aa3d-48ec-9d8b-fdb458279c66" />
+
+
+
     
 
  

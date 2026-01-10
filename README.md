@@ -161,7 +161,17 @@
 
        I have modified the code according to the assignment and put in the Lambda Function.  
        <img width="1196" height="1078" alt="image" src="https://github.com/user-attachments/assets/e2720074-0497-4093-9b01-c2fd18bee24e" />  
-       <img width="1067" height="528" alt="image" src="https://github.com/user-attachments/assets/aaab1dd3-e6ab-4bd5-ae30-20c24699525d" />  
+       <img width="1067" height="528" alt="image" src="https://github.com/user-attachments/assets/aaab1dd3-e6ab-4bd5-ae30-20c24699525d" />
+
+4. Event Source (Bonus):  
+  - Attach an event source, like Amazon CloudWatch Events, to trigger the Lambda function at your desired backup frequency (e.g., every week).  
+    <img width="966" height="56" alt="image" src="https://github.com/user-attachments/assets/b9edb0ad-e166-47ec-84b8-0e209d8cd7ec" />
+    <img width="1230" height="444" alt="image" src="https://github.com/user-attachments/assets/57653098-98e7-46e4-8b5a-45480026b395" />
+    <img width="583" height="162" alt="image" src="https://github.com/user-attachments/assets/e7dca9a5-5047-4912-a4cb-4f6deb174057" />
+    
+
+ 
+
 
 
 

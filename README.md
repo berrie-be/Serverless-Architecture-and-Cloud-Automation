@@ -174,10 +174,12 @@
     
     <img width="310" height="128" alt="image" src="https://github.com/user-attachments/assets/f1c504a2-cd85-4dce-83d6-a7d26d41ba76" />
 
-5. Manual Invocation:
-  - After saving your function, either manually trigger it or wait for the scheduled event.
-    First line proves that the function got triggered at 11th Jan 12.30 AM IST
+5. Manual Invocation:  
+  - After saving your function, either manually trigger it or wait for the scheduled event.  
+    First line proves that the function got triggered at 11th Jan 12.30 AM IST  
     <img width="779" height="385" alt="image" src="https://github.com/user-attachments/assets/defa7a7a-aa3d-48ec-9d8b-fdb458279c66" />
+    <img width="1552" height="282" alt="image" src="https://github.com/user-attachments/assets/b867cebe-c24a-467b-a05c-acbbf2fed8a9" />  
+
 
 
 

@@ -137,6 +137,34 @@
     <img width="824" height="410" alt="image" src="https://github.com/user-attachments/assets/d9a84074-7d39-4104-b746-688f61e7a86e" />
 
 
+3. Lambda Function:  
+  - Navigate to the Lambda dashboard and create a new function.  
+  - Choose Python 3.x as the runtime.  
+  - Assign the IAM role created in the previous step.  
+    <img width="818" height="570" alt="image" src="https://github.com/user-attachments/assets/a073b077-29ff-40c8-9925-4fd478fa1e5b" />  
+    <img width="1614" height="816" alt="image" src="https://github.com/user-attachments/assets/ade88350-1078-4202-9691-95b6747c5cee" />  
+    <img width="809" height="438" alt="image" src="https://github.com/user-attachments/assets/a3a93583-d678-4803-9950-741b4f96923e" />    
+
+  - Write the Boto3 Python script to:
+    1. Initialize a boto3 EC2 client.
+    2. Create a snapshot for the specified EBS volume.
+    3. List snapshots and delete those older than 30 days.
+    4. Print the IDs of the created and deleted snapshots for logging purposes.
+       As I cannot get any snapshot which is older than 30 days, I will attach the screenshots of the result I get if I delete the snapsots which were created just today and verify           the code how it works only for checking.
+       There is one snapshot which is already created for the volume and one will be created during this code. And the code will delete the snapshot which was created earlier.
+   
+       Python Code  
+       <img width="1194" height="1328" alt="image" src="https://github.com/user-attachments/assets/eb36ce94-1c6d-4b1d-bb45-d4d229287fb0" />
+         
+       Output  
+       <img width="1036" height="269" alt="image" src="https://github.com/user-attachments/assets/b64c43f8-bd45-476a-a15d-4a6b0c2c427d" />
+
+       I have modified the code according to the assignment and put in the Lambda Function.  
+       <img width="1196" height="1078" alt="image" src="https://github.com/user-attachments/assets/e2720074-0497-4093-9b01-c2fd18bee24e" />  
+       <img width="1067" height="528" alt="image" src="https://github.com/user-attachments/assets/aaab1dd3-e6ab-4bd5-ae30-20c24699525d" />  
+
+
+
 
     
 
